@@ -17,8 +17,12 @@ namespace SalesWebMvc.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Salles Web MVC App from C#";
-            ViewData["Developer"] = "Thiago Henrique| CEO at SwiF Technology";
+            ViewData["Message"] = "SwIF Technology";
+            ViewData["Socios"] = "Socios";
+            ViewData["Developer1"] = "Thiago Henrique| CEO at SwiF Technology";
+            ViewData["Developer2"] = "Nicolas Jeronimo| CTO at SwiF Technology";
+            ViewData["Developer3"] = "Guilherme Franca| CIO at SwiF Technology";
+            ViewData["Developer4"] = "Richard Franca| CDO at SwiF Technology";
             return View();
         }
 
